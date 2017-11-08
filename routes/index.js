@@ -3,7 +3,8 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  var theListOfLinks=[{title: "Game Mechanic Generator", link: "/mechanics"}, {title: "Phil's original demo", link: "/phil"}]
+  res.render('games', { title: 'gameLab', list: theListOfLinks, listTitle: "List of Games" });
 });
 
 module.exports = router;
