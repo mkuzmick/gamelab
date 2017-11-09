@@ -11,7 +11,7 @@ var gameMechanics = [
     {name: 'Bingo', imageUrl:'/images/bingo.jpg', rationale: 'A singular mix of surprise and monotony.'},
     {name: 'Poker', imageUrl:'/images/poker_01.jpg', rationale: 'Money.'},
     {name: 'Dice', imageUrl:'/images/dice_01.jpg', rationale: 'Tactile pleasure + randomization.'}
-  ]
+  ];
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
